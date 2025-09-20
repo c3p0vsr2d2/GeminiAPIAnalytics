@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Google Gemini",
+        "description": "Please enter your Google Gemini API key. You can generate one from your Google AI Studio dashboard.",
+        "data": {
+          "api_key": "API Key"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to Google Gemini. Please check your network connection.",
+      "invalid_auth": "Invalid API Key. Please check your key and try again.",
+      "unknown": "An unknown error occurred. Please check the logs for more details."
+    },
+    "abort": {
+      "already_configured": "This Google Gemini account is already configured."
+    }
+  }
+}
